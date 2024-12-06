@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button, input{
+    outline: none;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.sidebar{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    background: #222;
+    color: #ddd;
+}
+h1{
+    margin-bottom: 10px;
+}
+.form input,
+.form button,
+.form textarea{
+    width: 100%;
+    height: 40px;
+    margin-top: 12px;
+}
+.form textarea{
+    height: 120px;
+    resize: vertical;
+}
+
+.content{
+    padding: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.card{
+    width: 300px;
+    padding: 12px;
+    box-shadow: 0 0 10px #0003;
+    border-radius: 10px;
+    word-break: break-all;
+}
+.form input{
+    margin-bottom: 10px;
+}
+button{
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(.95);
+    background: #1a671a;
+}
+
+h3,p,h4{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+
+}
